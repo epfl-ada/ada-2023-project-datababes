@@ -17,11 +17,10 @@ what beer styles are popular
 
 
 
-Assumptions: 
+Assumptions:
+- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be above the average rating of a specific beer type.
 - Beer reviews and ratings are written close to the time of consumption (on the same day).
-- The popularity of a beer is correlated to the number of good reviews.
 - Popularity is related to the number of unique users that rate the beer. Making this assumption prevents for example a small but very communicative fan group from having too much of an impact on the rating of a beer.
-- We assume that the popularity of beer is correlated to the numbers of good reviews received(?).
 
 
 ## Methods
@@ -40,7 +39,7 @@ By using sentiment analysis we can map reviews and potentially also words from t
 We will use t-tests to give our assumption some statistically expressed support by quantifying significances. More specifically, for beer styles that are present in the top 20 only in certain months, we will check if that difference in good ratings is stastitically significant.
 
 
-## Proposed timeline
+## Timeline
 ```
 .
 ├── 20.11.23 - Pause project (HW 2)
