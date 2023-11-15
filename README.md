@@ -1,13 +1,19 @@
 # Brew to success 🍻
 
 ## Abstract
-Brewing the perfect beer is a task many set out for and only a few, if any, even achieve. When it comes to crafting a beer, choosing the right ingredients, temperature, brewing equipment and overall recipe design is crucial while leading to an explosion of possibilities. It is this vastness (shear infinity) of possibilities that captivates so many brewers around the globe chasing the perfect beer.
-With our project we want to supply a higher level perspective of what beer styles are popular 
+Brewing the perfect beer is a task many set out for and only a few, if any, even achieve. When it comes to crafting a beer, choosing the right ingredients, temperature, brewing equipment and overall recipe design is crucial while leading to an explosion of possibilities. It is this vastness of possibilities that captivates so many brewers around the globe chasing the perfect beer.<br>
+With our project we aim to break the flood of information supplied by the beer rating websites [BeerAdvocate](https://www.beeradvocate.com/) and [RateBeer](https://www.ratebeer.com/) down into easily digestible pieces of information, leading to meaningful insight for interested readers and might even increase their chances of brewing a well liked beer.
 
-This project explores the factors in beers that lead to better reviews and can be seen as a manual to success.
 
 ## Research Questions
 What would be the ideal beer for the US consumers depending on the month?
+
+This project explores the factors in beers that lead to better reviews and can be seen as a manual to success.
+
+The insights we want to supply
+We aim to do so by taking a step back and perform a time series analysis.
+
+what beer styles are popular 
 
 
 
@@ -16,7 +22,6 @@ Assumptions:
 - The popularity of a beer is correlated to the number of good reviews.
 - Popularity is related to the number of unique users that rate the beer. Making this assumption prevents for example a small but very communicative fan group from having too much of an impact on the rating of a beer.
 - We assume that the popularity of beer is correlated to the numbers of good reviews received(?).
-
 
 
 ## Methods
@@ -58,18 +63,8 @@ We will use t-tests to give our assumption some statistically expressed support 
 
 
 
-
+<!--
 ## Project Proposal (Milestone 2)
-Organize reviews in groups according to characteristics such as:
-- type of beer reviewed
-- country of residence of the user
-- ...
-
-Regarding the temporal aspect, the different groups can then be analysed across:
-- the different months of the year
-- the entire timeline of the reviews
-- (per month?)
-- ...
 
 Whatever set of combinations of these two aspects is chosen can then yield recommendations on how to produce and launch a successful beer. Successfulness is measured by ratings and only the top X beers for a certain Group and Time are chosen.
 Examples:
@@ -77,3 +72,4 @@ Examples:
 - For the group of type `Imperial IPA` in `2011` we only look at the beers `x`, `y` and `z` as they are considered the most successful with their average rating of 4.6, 4.58 and 4.52 across 2011.
 
 We decided not to proceed with the `matched_beer` dataset initially supplied as merging the datasets of `BeerAdvocate` and `RateBeer` provides a more complete dataset.
+-->
