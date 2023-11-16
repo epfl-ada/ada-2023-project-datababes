@@ -6,15 +6,13 @@ With our project we aim to break the flood of information supplied by the beer r
 
 
 ## Research Questions
-What would be the ideal beer for the US consumers depending on the month?
+What beer style and what characteristics would the ideal beer for US consumers have for each month of the year?
 
-This project explores the factors in beers that lead to better reviews and can be seen as a guide to success.
+📌 How does the location of the different breweries producing a beer of a certain popular beer style influence the ratings?
 
-The insights we want to supply
-We aim to do so by taking a step back and perform a time series analysis.
+🌀🌿💘🔥 & 📖 Rate reviews and keywords appearing in them by combining sentiment and dictionary analysis. What keywords are carry the most positive sentiment? What keywords are used in a negative way? This analysis can give an indication of what emotions a beer should evoke.
 
-what beer styles are popular 
-
+🍷‰ Does the alcohol content lead to a perceiveable change in ratings or review sentiment?
 
 
 Assumptions:
