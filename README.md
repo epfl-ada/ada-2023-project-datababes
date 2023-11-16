@@ -2,32 +2,31 @@
 
 ## Abstract
 Brewing the perfect beer is a task many set out for and only a few, if any, even achieve. When it comes to crafting a beer, choosing the right ingredients, temperature, brewing equipment and overall recipe design is crucial while leading to an explosion of possibilities. It is this vastness of possibilities that captivates so many brewers around the globe chasing the perfect beer.<br>
-With our project we aim to break the flood of information supplied by the beer rating websites [BeerAdvocate](https://www.beeradvocate.com/) and [RateBeer](https://www.ratebeer.com/) down into easily digestible pieces of information, leading to meaningful insight for interested readers and might even increase their chances of brewing a well liked beer.
+With our project we aim to break the flood of information supplied by the beer rating websites [BeerAdvocate](https://www.beeradvocate.com/) and [RateBeer](https://www.ratebeer.com/) down into easily digestible pieces of information, leading to meaningful insight for interested readers and might even increase their chances of brewing a well liked beer.<br>
+Do you prefer to stick to the same three popular types of beer that you know, or would you be ready to immerge yourself into the world of beers and discover a choice that perfectly matches the mood of the month ?
 
 
 ## Research Questions
-What would be the ideal beer for the US consumers depending on the month?
+What beer style and what characteristics would the ideal beer for US consumers have for each month of the year?
 
-This project explores the factors in beers that lead to better reviews and can be seen as a manual to success.
+📌 How does the location of the different breweries producing a beer of a certain popular beer style influence the ratings?
 
-The insights we want to supply
-We aim to do so by taking a step back and perform a time series analysis.
+🌀🌿💘🔥 & 📖 Rate reviews and keywords appearing in them by combining sentiment and dictionary analysis. What keywords are carry the most positive sentiment? What keywords are used in a negative way? This analysis can give an indication of what emotions a beer should evoke.
 
-what beer styles are popular 
-
+🍷‰ Does the alcohol content lead to a perceiveable change in ratings or review sentiment?
 
 
 Assumptions:
-- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be above the average rating of a specific beer type.
+- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be of higher value than the average rating of a specific beer type.
 - Beer reviews and ratings are written close to the time of consumption (on the same day).
-- Popularity is related to the number of unique users that rate the beer. Making this assumption prevents for example a small but very communicative fan group from having too much of an impact on the rating of a beer.
+- Popularity is related to the number of unique users that rate the beer. By taking this assumption we prevent for a small but very communicative fan group from having too much of an impact on the rating of a beer.
 
 
 ## Methods
 
 ### Time series analysis
 The time series analysis is the direct consequence of our aim to analyse how the perfect beer evolves over the months of the year. For this the review data is layered on top of each other with the period being one year and twelve bins, representing the twelve months, are established.
-We will use this to analyse and present different attributes such keyword frequencies and the value of ratings.
+We will use this to analyse and present different attributes such as keyword frequencies and the value of ratings.
 
 ### Dictionary analysis
 The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
