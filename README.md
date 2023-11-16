@@ -8,7 +8,7 @@ With our project we aim to break the flood of information supplied by the beer r
 ## Research Questions
 What would be the ideal beer for the US consumers depending on the month?
 
-This project explores the factors in beers that lead to better reviews and can be seen as a manual to success.
+This project explores the factors in beers that lead to better reviews and can be seen as a guide to success.
 
 The insights we want to supply
 We aim to do so by taking a step back and perform a time series analysis.
@@ -18,16 +18,16 @@ what beer styles are popular
 
 
 Assumptions:
-- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be above the average rating of a specific beer type.
+- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be of higher value than the average rating of a specific beer type.
 - Beer reviews and ratings are written close to the time of consumption (on the same day).
-- Popularity is related to the number of unique users that rate the beer. Making this assumption prevents for example a small but very communicative fan group from having too much of an impact on the rating of a beer.
+- Popularity is related to the number of unique users that rate the beer. By taking this assumption we prevent for a small but very communicative fan group from having too much of an impact on the rating of a beer.
 
 
 ## Methods
 
 ### Time series analysis
 The time series analysis is the direct consequence of our aim to analyse how the perfect beer evolves over the months of the year. For this the review data is layered on top of each other with the period being one year and twelve bins, representing the twelve months, are established.
-We will use this to analyse and present different attributes such keyword frequencies and the value of ratings.
+We will use this to analyse and present different attributes such as keyword frequencies and the value of ratings.
 
 ### Dictionary analysis
 The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
