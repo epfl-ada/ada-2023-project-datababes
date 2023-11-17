@@ -9,11 +9,11 @@ Do you prefer to stick to the same three popular types of beer that you know, or
 ## Research Questions
 What would be the ideal beer for the US consumer depending on the month?
 
-To answer this question we are going to look at different aspects:
+To answer this question we are going to look at different aspects from the eda.ipynb notebook.
 
 📌 How does the location of the different breweries affect the ratings?
 
-🌀🌿💘🔥 & 📖 Rate reviews and keywords appearing in them by combining sentiment and dictionary analysis. What keywords are carry the most positive sentiment? What keywords are used in a negative way? This analysis can give an indication of what emotions a beer should evoke.
+🌀🌿💘🔥 & 📖 We want to know the best characteristics defining each categroy (such as taste or color) and to do so, we extract popular keywords present in the reviews.
 
 🍷‰ Does the alcohol content lead to a perceiveable change in ratings or review sentiment?
 
