@@ -64,7 +64,7 @@ We will use t-tests to give our assumption some statistically expressed support 
 
 ## TA Questions
 - Dictionary definition: Currently we did a manual research to create our own Dictionary. We might get more adapted results by first creating an occurence matrix to create the Dictionary, and then using it to analyse the dataset. But we are not sure if this might lead into a wrong direction.
-- Popularity is related to the number of unique users that rate the beer. We want to limit the effect of a small but very communicative fan group from having too much of an impact on the rating of a beer and develop a threshold limit per user and beer. What do you think about this consideration and how should we integrate this ?
+- We thought about handling the cases where we could have many ratings from a specific user for the same beer. Should we limit the effect of a small but very communicative user from having too much of an impact on the rating of a beer and develop ? If yes, should we set a threshold to eliminate the ratings as this could be due to a user trying to bring up or down the average rating of the beer ? Or should we leave them as this could come from a user that is a fan of the beer and that decides to taste it every month and rate it ? Or should we not set a threshold but average the ratings for the same beer from a user ?
 
 <!--
 ## Project Proposal (Milestone 2)
