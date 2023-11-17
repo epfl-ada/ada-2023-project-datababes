@@ -32,6 +32,9 @@ We will use this to analyse and present different attributes such as keyword fre
 ### Dictionary analysis
 The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
 
+### Clustering
+Use clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
+
 ### Sentiment analysis
 By using sentiment analysis we can map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves.
 
