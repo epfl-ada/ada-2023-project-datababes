@@ -7,9 +7,11 @@ Do you prefer to stick to the same three popular types of beer that you know, or
 
 
 ## Research Questions
-What beer style and what characteristics would the ideal beer for US consumers have for each month of the year?
+What would be the ideal beer for the US consumer depending on the month?
 
-📌 How does the location of the different breweries producing a beer of a certain popular beer style influence the ratings?
+To answer this question we are going to look at different aspects:
+
+📌 How does the location of the different breweries affect the ratings?
 
 🌀🌿💘🔥 & 📖 Rate reviews and keywords appearing in them by combining sentiment and dictionary analysis. What keywords are carry the most positive sentiment? What keywords are used in a negative way? This analysis can give an indication of what emotions a beer should evoke.
 
@@ -17,9 +19,8 @@ What beer style and what characteristics would the ideal beer for US consumers h
 
 
 Assumptions:
-- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be of higher value than the average rating of a specific beer type.
+- The popularity of beer is correlated to the numbers of good ratings received. A good rating is defined to be of higher value than the average rating of the entire dataset.
 - Beer reviews and ratings are written close to the time of consumption (on the same day).
-- Popularity is related to the number of unique users that rate the beer. By taking this assumption we prevent for a small but very communicative fan group from having too much of an impact on the rating of a beer.
 
 
 ## Methods
@@ -58,8 +59,9 @@ We will use t-tests to give our assumption some statistically expressed support 
 
 ```
 
-
-
+## TA Questions
+- library definition: Currently we did a manual research to create our library. We might get more adapted results by first running an analysis of the reviews to create the word library, and then using it to analyse the dataset. But we are not sure if this might lead in a wrong direction.
+- Popularity is related to the number of unique users that rate the beer. We want to limit the effect of a small but very communicative fan group from having too much of an impact on the rating of a beer and develop a threshold limit per user and beer. What do you think about this consideration and how should we integrate this ?
 
 <!--
 ## Project Proposal (Milestone 2)
