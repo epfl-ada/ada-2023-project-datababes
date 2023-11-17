@@ -60,7 +60,7 @@ We will use t-tests to give our assumption some statistically expressed support 
 ```
 
 ## TA Questions
-- library definition: Currently we did a manual research to create our library. We might get more adapted results by first running an analysis of the reviews to create the word library, and then using it to analyse the dataset. But we are not sure if this might lead in a wrong direction.
+- Dictionary definition: Currently we did a manual research to create our own Dictionary. We might get more adapted results by first creating an occurence matrix to create the Dictionary, and then using it to analyse the dataset. But we are not sure if this might lead into a wrong direction.
 - Popularity is related to the number of unique users that rate the beer. We want to limit the effect of a small but very communicative fan group from having too much of an impact on the rating of a beer and develop a threshold limit per user and beer. What do you think about this consideration and how should we integrate this ?
 
 <!--
