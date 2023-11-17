@@ -13,7 +13,7 @@ To answer this question we are going to look at different aspects from the eda.i
 
 📌 How does the location of the different breweries affect the ratings?
 
-🌀🌿💘🔥 & 📖 We want to know the best characteristics defining each categroy (such as taste or color) and to do so, we extract popular keywords present in the reviews.
+🌀🌿💘🔥 & 📖 We want to know the best characteristics defining each category (such as taste or color), and to do so we extract popular keywords that are present in the reviews.
 
 🍷‰ Does the alcohol content lead to a perceiveable change in ratings or review sentiment?
 
