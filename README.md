@@ -5,6 +5,7 @@ Brewing the perfect beer is a task many set out for and only a few, if any, even
 With our project we aim to break the flood of information supplied by the beer rating websites [BeerAdvocate](https://www.beeradvocate.com/) and [RateBeer](https://www.ratebeer.com/) down into easily digestible pieces of information, leading to meaningful insight for interested readers and might even increase their chances of brewing a well liked beer.<br>
 Do you prefer to stick to the same three popular types of beer that you know, or would you be ready to immerge yourself into the world of beers and discover a choice that perfectly matches the mood of the month ? To find out, please go to our [Brewtiful site](https://ajkunas.github.io/ada-template-website/).
 
+
 ## Research Questions
 What would be the ideal beer for the US consumer depending on the month?
 
