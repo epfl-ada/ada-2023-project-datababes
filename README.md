@@ -43,7 +43,15 @@ We performed keyword analysis to find out what aspects of the beer are more valu
 We will use these tests to give our assumptions some statistically expressed support by quantifying significances. More specifically, we used the Mann-Whithney U Test to show that the distributions of the ratings between US users and the others are significantly different which supported our decision to only focus on US users. We also used t-test to have statistical backing to our assumptions, like on the ratings of the two datasets to show that the ratings in the two datasets are significantly different.
 
 ### Observational Study
-Another method we used to statistically backup our assumptions and uncover the effect of a variable on the ratings is observational study. We used this to showcase the effect of a keyword on ratings, 
+Observational studies are a powerful tool to determine statistical significances of an observed variable on the treatment, while at the same time minimizing or eliminating the influence of other observed variables. This is done through matching a propensity score that is calculated on said observed variables, whose influence wants to be minimized or eliminated. A dataset is then created which matches two observations of equal or similar propensity scores, where one observation originates from a subset of observations having received the treatment, while the other originates from a subset of observations not having received the treatment.
+For matching of propensity scores from the treatment and control group we used:
+$$Similarity(Propensity Score 1, Propensity Score 2) = 1 - |Propensity Score 1 - Propensity Score 2|$$
+Calculating a regression to predict treatment using the chosen observed variable on this newly created dataset yields the coefficient associated to the observed variable and the corresponding p-value. From this, conclusions about the statistical significance of that observed variable on the treatment can be made.  
+In our case we analyzed if the fact if a brewery is situated in the US influences if a rating is above the mean rating (treatment). Due to the large size of the dataset we had to sample and filter the data multiple times in order to have a manageable size for the task. The observed variables whose influence we want to minimize and thus used to calculate the propensity score are:
+- Month
+- Alcohol Content
+- Dataset
+
 ...TODO...
 
 ## Timeline
