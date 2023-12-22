@@ -63,8 +63,8 @@ We will use t-tests to give our assumption some statistically expressed support 
 ```
 
 ## Team Organisation
-- Cyril:
-- Ajkuna:
-- Alex:
-- Tim:
-- Dana:
+- Cyril: Exploratory Data Analysis, Rating Keyword Analysis, Datastory
+- Ajkuna: Exploratory Data Analysis, Rating Keyword Analysis, Website Creation, Datastory
+- Alex: Project Proposal, Beer Location Analysis, Datastory
+- Tim: Project Proposal, Alcohol by Volume Analysis, Datastory
+- Dana: Exploratory Data Analysis, Pre-Processing to obtain Merged DataFrame, Datastory
