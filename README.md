@@ -62,17 +62,9 @@ We will use t-tests to give our assumption some statistically expressed support 
 
 ```
 
-## TA Questions
-- Dictionary definition: Currently we did a manual research to create our own Dictionary. We might get more adapted results by first creating an occurence matrix to create the Dictionary, and then using it to analyse the dataset. But we are not sure if this might lead into a wrong direction.
-- We thought about handling the cases where we could have many ratings from a specific user for the same beer. Should we limit the effect of a small but very communicative user from having too much of an impact on the rating of a beer and develop ? If yes, should we set a threshold to eliminate the ratings as this could be due to a user trying to bring up or down the average rating of the beer ? Or should we not set a threshold but average the ratings for the same beer from a user ?Or should we leave them as this could come from a user that is a fan of the beer and that decides to taste it every month and rate it ? 
-
-<!--
-## Project Proposal (Milestone 2)
-
-Whatever set of combinations of these two aspects is chosen can then yield recommendations on how to produce and launch a successful beer. Successfulness is measured by ratings and only the top X beers for a certain Group and Time are chosen.
-Examples:
-- For the group of type `Lambic` in `January` we only look at the beers `a`, `b` and `c` as they are considered the most successful with their average rating of 4.6, 4.58 and 4.52 accross all recorded januaries.
-- For the group of type `Imperial IPA` in `2011` we only look at the beers `x`, `y` and `z` as they are considered the most successful with their average rating of 4.6, 4.58 and 4.52 across 2011.
-
-We decided not to proceed with the `matched_beer` dataset initially supplied as merging the datasets of `BeerAdvocate` and `RateBeer` provides a more complete dataset.
--->
+## Team Organisation
+- Cyril:
+- Ajkuna:
+- Alex:
+- Tim:
+- Dana:
