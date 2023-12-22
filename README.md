@@ -37,9 +37,10 @@ The time series analysis is the direct consequence of our aim to analyse how the
 We used this to analyse the changes of different beer characteristics across the year, and present different attributes such as keyword frequencies and the value of ratings.
 
 ### Keyword Analysis using Dictionnary Analysis, Clustering, and Sentiment Analysis
-The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
-Use clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
-By using sentiment analysis we can map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves.
+Keyword analysis involved using multiple other methods.  
+We first used dictionary analysis to allows us to see what words are used in each month to describe a beer.  
+Use then clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
+Finally we used sentiment analysis to map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves. This allowed us to find out what aspects of the beer are more valued depending on the month. 
 
 ### T-Tests and Mann-Whithney U Test
 We will use these tests to give our assumptions some statistically expressed support by quantifying significances. More specifically, we used the Mann-Whithney U Test to show that the distributions of the ratings between US users and the others are significantly different which supported our decision to only focus on US users. We also used t-test to have statistical backing to our assumptions, like on the ratings of the two datasets to show that the ratings in the two datasets are significantly different.
