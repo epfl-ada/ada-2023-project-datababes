@@ -37,7 +37,7 @@ The time series analysis is the direct consequence of our aim to analyse how the
 We used this to analyse the changes of different beer characteristics across the year, and present different attributes such as keyword frequencies and the value of ratings.
 
 ### Keyword Analysis
-To perform keyword analysis, we used different method, namely dictionnary analysis, clustering, and sentiment analysis.  
+We used different method to perform keyword analysis, namely dictionnary analysis, clustering, and sentiment analysis.  
 We first used dictionary analysis to allows us to see what words are used in each month to describe a beer. 
 We then clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.  
 Finally we used sentiment analysis to map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves. This allowed us to find out what aspects of the beer are more valued depending on the month. 
