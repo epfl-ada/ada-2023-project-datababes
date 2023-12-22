@@ -36,13 +36,9 @@ Finally, and as a precautionary measure, we've decided to remove users with susp
 The time series analysis is the direct consequence of our aim to analyse how the perfect beer evolves over the months of the year. For this the review data is layered on top of each other with the period being one year and twelve bins, representing the twelve months, are established.
 We used this to analyse the changes of different beer characteristics across the year, and present different attributes such as keyword frequencies and the value of ratings.
 
-### Dictionary Analysis
+### Keyword Analysis using Dictionnary Analysis, Clustering, and Sentiment Analysis
 The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
-
-### Clustering
 Use clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
-
-### Sentiment Analysis
 By using sentiment analysis we can map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves.
 
 ### T-Tests and Mann-Whithney U Test
