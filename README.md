@@ -43,6 +43,7 @@ We performed keyword analysis to find out what aspects of the beer are more valu
 We will use these tests to give our assumptions some statistically expressed support by quantifying significances. More specifically, we used the Mann-Whithney U Test to show that the distributions of the ratings between US users and the others are significantly different which supported our decision to only focus on US users. We also used t-test to have statistical backing to our assumptions, like on the ratings of the two datasets to show that the ratings in the two datasets are significantly different.
 
 ### Observational Study
+Another method we used to statistically backup our assumptions and uncover the effect of a variable on the ratings is observational study. We used this to showcase the effect of a keyword on ratings, 
 ...TODO...
 
 ## Timeline
