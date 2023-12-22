@@ -77,4 +77,4 @@ In our case we analyzed if the fact if a brewery is situated in the US influence
 - Ajkuna: Exploratory Data Analysis, Rating Keyword Analysis, Website Creation, Datastory
 - Alex: Project Proposal, Beer Location Analysis, Datastory
 - Tim: Project Proposal, Alcohol by Volume Analysis, Datastory
-- Dana: Exploratory Data Analysis, Pre-Processing for Dataset Construction, Datastory
+- Dana: Exploratory Data Analysis, Pre-Processing for Dataset Construction, Complete Website, Datastory
