@@ -45,6 +45,8 @@ Finally we used sentiment analysis to map reviews and potentially also words fro
 ### T-Tests and Mann-Whithney U Test
 We will use these tests to give our assumptions some statistically expressed support by quantifying significances. More specifically, we used the Mann-Whithney U Test to show that the distributions of the ratings between US users and the others are significantly different which supported our decision to only focus on US users. We also used t-test to have statistical backing to our assumptions, like on the ratings of the two datasets to show that the ratings in the two datasets are significantly different.
 
+### Observational Study
+...TODO...
 
 ## Timeline
 ```
