@@ -25,20 +25,27 @@ Assumptions:
 
 ## Methods
 
-### Time series analysis
+### Pre-processing and Dataset Construction
+
+In our pre-processing phase, we encountered the challenge of aligning two different datasets. One of the issue we had was the absence of consistent beer IDs across the datasets for identical beers, while similar IDs could be associated with different beers. To address this, we opted to generate new, consistent beer IDs for each entry.  
+Additionally, the beer style names in the two datasets varied, which required a standardization. To tackle this problem we decided to map names from one dataset to the other, and to sometimes strategically map more specific styles from one dataset to broader styles in the other.  
+To avoid getting mixed results that might be affected by the different tastes and seasons in different parts of the world, we decided to to filter our dataset to only keep ratings from people from the US as it is the region where users rated the most.  
+Finally, and as a precautionary measure, we've decided to remove users with suspect behavior (such as the excessive rating of a beer in a short period of time) from the dataset to keep the reliability of the ratings.
+
+### Time Series Analysis
 The time series analysis is the direct consequence of our aim to analyse how the perfect beer evolves over the months of the year. For this the review data is layered on top of each other with the period being one year and twelve bins, representing the twelve months, are established.
 We will use this to analyse and present different attributes such as keyword frequencies and the value of ratings.
 
-### Dictionary analysis
+### Dictionary Analysis
 The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
 
 ### Clustering
 Use clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
 
-### Sentiment analysis
+### Sentiment Analysis
 By using sentiment analysis we can map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves.
 
-### T-tests
+### T-Tests
 We will use t-tests to give our assumption some statistically expressed support by quantifying significances. More specifically, for beer styles that are present in the top 20 only in certain months, we will check if that difference in good ratings is stastitically significant.
 
 
@@ -67,4 +74,4 @@ We will use t-tests to give our assumption some statistically expressed support 
 - Ajkuna: Exploratory Data Analysis, Rating Keyword Analysis, Website Creation, Datastory
 - Alex: Project Proposal, Beer Location Analysis, Datastory
 - Tim: Project Proposal, Alcohol by Volume Analysis, Datastory
-- Dana: Exploratory Data Analysis, Pre-Processing to obtain Merged DataFrame, Datastory
+- Dana: Exploratory Data Analysis, Pre-Processing for Dataset Construction, Datastory
