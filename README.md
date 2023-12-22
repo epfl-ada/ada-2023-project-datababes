@@ -52,8 +52,6 @@ In our case we analyzed if the fact if a brewery is situated in the US influence
 - Alcohol Content
 - Dataset
 
-...TODO...
-
 ## Timeline
 ```
 .
