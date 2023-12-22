@@ -25,21 +25,25 @@ Assumptions:
 
 ## Methods
 
-### Time series analysis
+### Pre-processing and Dataset Construction
+
+In our pre-processing phase, we encountered the challenge of aligning two different datasets. One of the issue we had was the absence of consistent beer IDs across the datasets for identical beers, while similar IDs could be associated with different beers. To address this, we opted to generate new, consistent beer IDs for each entry.  
+Additionally, the beer style names in the two datasets varied, which required a standardization. To tackle this problem we decided to map names from one dataset to the other, and to sometimes strategically map more specific styles from one dataset to broader styles in the other.  
+To avoid getting mixed results that might be affected by the different tastes and seasons in different parts of the world, we decided to to filter our dataset to only keep ratings from people from the US as it is the region where users rated the most.  
+Finally, and as a precautionary measure, we've decided to remove users with suspect behavior (such as the excessive rating of a beer in a short period of time) from the dataset to keep the reliability of the ratings.
+
+### Time Series Analysis
 The time series analysis is the direct consequence of our aim to analyse how the perfect beer evolves over the months of the year. For this the review data is layered on top of each other with the period being one year and twelve bins, representing the twelve months, are established.
-We will use this to analyse and present different attributes such as keyword frequencies and the value of ratings.
+We used this to analyse the changes of different beer characteristics across the year, and present different attributes such as keyword frequencies and the value of ratings.
 
-### Dictionary analysis
-The dictionary analysis allows us to see what words are used in each month to describe a beer. Paired with the sentiment analysis we can then conclude from this what aspects of the beer are more valued depending on the month.
+### Keyword Analysis
+We used different method to perform keyword analysis, namely dictionnary analysis, clustering, and sentiment analysis.  
+We first used dictionary analysis to allows us to see what words are used in each month to describe a beer. 
+We then clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.  
+Finally we used sentiment analysis to map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves. This allowed us to find out what aspects of the beer are more valued depending on the month. 
 
-### Clustering
-Use clustering to group keywords that describe the same beer characteristics once we have extracted those keywords from the user reviews.
-
-### Sentiment analysis
-By using sentiment analysis we can map reviews and potentially also words from the dictionaries we use to a positive-negative sentiment scale, which allows us to verify and better understand the reviews themselves.
-
-### T-tests
-We will use t-tests to give our assumption some statistically expressed support by quantifying significances. More specifically, for beer styles that are present in the top 20 only in certain months, we will check if that difference in good ratings is stastitically significant.
+### T-Tests and Mann-Whithney U Test
+We will use these tests to give our assumptions some statistically expressed support by quantifying significances. More specifically, we used the Mann-Whithney U Test to show that the distributions of the ratings between US users and the others are significantly different which supported our decision to only focus on US users. We also used t-test to have statistical backing to our assumptions, like on the ratings of the two datasets to show that the ratings in the two datasets are significantly different.
 
 
 ## Timeline
@@ -62,17 +66,9 @@ We will use t-tests to give our assumption some statistically expressed support 
 
 ```
 
-## TA Questions
-- Dictionary definition: Currently we did a manual research to create our own Dictionary. We might get more adapted results by first creating an occurence matrix to create the Dictionary, and then using it to analyse the dataset. But we are not sure if this might lead into a wrong direction.
-- We thought about handling the cases where we could have many ratings from a specific user for the same beer. Should we limit the effect of a small but very communicative user from having too much of an impact on the rating of a beer and develop ? If yes, should we set a threshold to eliminate the ratings as this could be due to a user trying to bring up or down the average rating of the beer ? Or should we not set a threshold but average the ratings for the same beer from a user ?Or should we leave them as this could come from a user that is a fan of the beer and that decides to taste it every month and rate it ? 
-
-<!--
-## Project Proposal (Milestone 2)
-
-Whatever set of combinations of these two aspects is chosen can then yield recommendations on how to produce and launch a successful beer. Successfulness is measured by ratings and only the top X beers for a certain Group and Time are chosen.
-Examples:
-- For the group of type `Lambic` in `January` we only look at the beers `a`, `b` and `c` as they are considered the most successful with their average rating of 4.6, 4.58 and 4.52 accross all recorded januaries.
-- For the group of type `Imperial IPA` in `2011` we only look at the beers `x`, `y` and `z` as they are considered the most successful with their average rating of 4.6, 4.58 and 4.52 across 2011.
-
-We decided not to proceed with the `matched_beer` dataset initially supplied as merging the datasets of `BeerAdvocate` and `RateBeer` provides a more complete dataset.
--->
+## Team Organisation
+- Cyril: Exploratory Data Analysis, Rating Keyword Analysis, Datastory
+- Ajkuna: Exploratory Data Analysis, Rating Keyword Analysis, Website Creation, Datastory
+- Alex: Project Proposal, Beer Location Analysis, Datastory
+- Tim: Project Proposal, Alcohol by Volume Analysis, Datastory
+- Dana: Exploratory Data Analysis, Pre-Processing for Dataset Construction, Datastory
